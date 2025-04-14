@@ -1,0 +1,20 @@
+{
+  "name": "docpilot-appwrite-setup",
+  "version": "1.0.0",
+  "main": "setup_appwrite.js",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "inquirer": "^12.5.2",
+    "nanospinner": "^1.2.2",
+    "node-appwrite": "^15.0.1",
+    "node-fetch-native-with-agent": "^1.7.2",
+    "node-forge": "^1.3.1"
+  },
+  "scripts": {
+    "setup": "node setup_appwrite.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
