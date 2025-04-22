@@ -244,6 +244,16 @@ async function createAttributes(databases, databaseId, collectionId, attributes)
                         attr.array || false
                     );
                     break;
+                case 'boolean':
+                    await databases.createBooleanAttribute(
+                        databaseId,
+                        collectionId,
+                        attr.name,
+                        attr.required,
+                        null,
+                        attr.array || false
+                    );
+                    break;
                 default:
                     console.log(error(`Unsupported attribute type: ${attr.type}`));
             }
